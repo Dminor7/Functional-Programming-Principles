@@ -1,0 +1,32 @@
+[debug] javaOptions: Vector()
+[debug] Forking tests - parallelism = false
+[debug] Create a single-thread test executor
+[debug] Runner for com.novocode.junit.JUnitFramework produced 1 initial tasks for 1 tests.
+[debug]   Running TaskDef(funsets.FunSetSuite, sbt.ForkMain$AnnotatedFingerscan@2c85d57, false, [SuiteSelector])
+[info] Test run started
+[info] Test funsets.FunSetSuite.exists at least a number greater than 1 started
+[debug] Test funsets.FunSetSuite.exists at least a number greater than 1 finished, took 0.703 sec
+[info] Test funsets.FunSetSuite.filter from set with element 1 the elements that are not greater than one started
+[debug] Test funsets.FunSetSuite.filter from set with element 1 the elements that are not greater than one finished, took 0.016 sec
+[info] Test funsets.FunSetSuite.forall positive numbers started
+[debug] Test funsets.FunSetSuite.forall positive numbers finished, took 0.031 sec
+[info] Test funsets.FunSetSuite.intersect contains the common elements between each set started
+[debug] Test funsets.FunSetSuite.intersect contains the common elements between each set finished, took 0.063 sec
+[info] Test funsets.FunSetSuite.singleton set one contains one started
+[debug] Test funsets.FunSetSuite.singleton set one contains one finished, took 0.015 sec
+[info] Test funsets.FunSetSuite.map multiplying by 3 started
+[debug] Test funsets.FunSetSuite.map multiplying by 3 finished, took 0.032 sec
+[info] Test funsets.FunSetSuite.union contains all elements of each set started
+[debug] Test funsets.FunSetSuite.union contains all elements of each set finished, took 0.062 sec
+[info] Test funsets.FunSetSuite.filter from set with element 3 the elements that are not greater than one started
+[debug] Test funsets.FunSetSuite.filter from set with element 3 the elements that are not greater than one finished, took 0.0 sec
+[info] Test funsets.FunSetSuite.difference returns a set which contains all the elements of the set s that are not in the set t. started
+[debug] Test funsets.FunSetSuite.difference returns a set which contains all the elements of the set s that are not in the set t. finished, took 0.016 sec
+[info] Test funsets.FunSetSuite.contains is implemented started
+[debug] Test funsets.FunSetSuite.contains is implemented finished, took 0.0 sec
+[info] Test run finished: 0 failed, 0 ignored, 10 total, 1.473s
+[debug]     Produced 0 nested tasks and 10 events.
+[debug] Summary for JUnit not available.
+[info] Passed: Total 10, Failed 0, Errors 0, Passed 10
+[debug] Passed tests:
+[debug] 	funsets.FunSetSuite
